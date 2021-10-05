@@ -16,14 +16,15 @@ Black - #333333
 Shadow - #454360 */
 
 @font-face {
-    font-family: mandalore;
-    src: url('fonts/mandalorehalfital.ttf');
+    font-family: lemonmilk;
+    src: url('fonts/LEMONMILK-Light.ttf');
 }
 
 @font-face {
-    font-family: comfortaa;
-    src: url('fonts/Comfortaa-Regular.ttf');
+    font-family: louisgeorge;
+    src: url('fonts/LouisGeorge.ttf');
 }
+
 
 :root {
     --primary-color: #f95779;
@@ -36,7 +37,7 @@ Shadow - #454360 */
 body {
     background-color: var(--white-color);
     font-size: 1.1em;
-    font-family: comfortaa;
+    font-family: louisgeorge;
 }
 
 main>.container {
@@ -49,18 +50,12 @@ main>.container-fluid {
 
 }
 
-h1 {
-    color: var(--secondary-color);
-    text-shadow: 2px, 2px, #333;
-}
 
 .headline {
-    font-family: mandalore;
-    font-size: 5em;
+    font-family: lemonmilk;
+    font-size: 2.5em;
     margin: 0;
     color: var(--primary-color);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #333;
 }
 
 #content {
